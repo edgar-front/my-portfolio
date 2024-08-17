@@ -33,7 +33,12 @@ const Navbar = () => {
             </li>
             <li>
               <a className="menu-item">
-                <Text color="green" weight={300} componentTag="span">
+                <Text
+                  size="15px"
+                  color="green"
+                  weight={300}
+                  componentTag="span"
+                >
                   Contact Me
                 </Text>
               </a>
