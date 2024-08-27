@@ -1,0 +1,104 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero-container::after,
+.hero-container::before {
+  content: " ";
+  width: 450px;
+  height: 450px;
+  border-radius: 450px;
+  background: #7c66e3;
+  position: absolute;
+  z-index: -1;
+  filter: blur(225px);
+}
+
+.hero-container::after {
+  top: -48px;
+  left: -80px;
+}
+
+.hero-container::before {
+  bottom: 32px;
+  right: 0px;
+}
+.hero-content {
+  flex: 1;
+}
+
+.hero-title {
+  margin-bottom: 16px;
+}
+
+.hero-content p {
+  width: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.hero-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.first-row {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+}
+
+.react-icon,
+.second-row > img {
+  width: 80px;
+  height: 80px;
+  padding: 16px;
+  border-radius: 9px;
+  border: 1.5px solid #6852ba;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+  }
+}
+
+.second-row {
+  display: flex;
+  gap: 24px;
+  margin-left: 104px;
+}
+
+.hero-content h2 {
+  font-size: 33px;
+  line-height: 48px;
+}
+
+.hero-content p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.hero-img {
+  gap: 16px;
+}
+
+.hero-img > div {
+  gap: 16px;
+}
+
+.hero-img > div > img {
+  width: 256px;
+}
+
+.tech-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.tech-icon img {
+  width: 32px;
+}
