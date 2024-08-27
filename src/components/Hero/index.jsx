@@ -20,20 +20,20 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="hero-img">
+      <div className="hero-img-wrapper">
         <div>
-          <div className="tech-icon">
-            <img src="./assets/images/img01.png" alt="" />
+          <div className="first-row">
+            <img
+              className="react-icon"
+              src="./assets/images/img01.png"
+              alt=""
+            />
+            <img src="./assets/images/img11.jpg" alt="" />
           </div>
-          {/* <img className="hero-pic" src="./assets/images/logo.svg" alt="" /> */}
         </div>
-        <div className="tech-icon">
+        <div className="second-row">
           <img src="./assets/images/img02.png" alt="" />
-        </div>
-        <div className="tech-icon">
           <img src="./assets/images/img03.png" alt="" />
-        </div>
-        <div className="tech-icon">
           <img src="./assets/images/img04.png" alt="" />
         </div>
       </div>

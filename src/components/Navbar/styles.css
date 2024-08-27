@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 16px 0;
   margin: 0 auto;
 }
 
@@ -24,7 +24,7 @@
 .nav-content ul {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 24px;
   list-style: none;
 }
 
@@ -33,7 +33,6 @@
 }
 
 .menu-item {
-  text-decoration: none;
   position: relative;
   cursor: pointer;
 }
@@ -41,11 +40,11 @@
 .menu-item::before {
   content: " ";
   width: 32px;
-  height: 0.2rem;
+  height: 3px;
   background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
-  border-radius: 0.5rem;
+  border-radius: 6px;
   position: absolute;
-  bottom: -0.6rem;
+  bottom: -9px;
   opacity: 0;
   transform: translateX(-1.5rem);
   transition: all 0.3s ease;
@@ -65,10 +64,10 @@
   justify-content: center;
   color: #fff;
   background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
-  padding: 0.6rem, 2rem;
+  padding: 9px, 3px;
   border: none;
   outline: 1.5px solid transparent;
-  border-radius: 0.2rem;
+  border-radius: 3px;
   cursor: pointer;
   transition: all 0.3 ease;
 }
@@ -82,12 +81,12 @@
 .menu-btn {
   width: 32px;
   height: 32px;
-  font-size: 1.5rem;
+  font-size: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: none;
-  border-radius: 0.4rem;
+  border-radius: 6px;
   color: #fff;
   background: linear-gradient(90deg, #a993fe -0.13%, #7e61e7 99.87%);
   line-height: 0;

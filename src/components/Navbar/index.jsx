@@ -12,33 +12,28 @@ const Navbar = () => {
           <ul>
             <li>
               <a className="menu-item">
-                <Text color="blue" weight={300} componentTag="span">
+                <Text color="white" weight={200} componentTag="span">
                   Home
                 </Text>
               </a>
             </li>
             <li>
               <a className="menu-item">
-                <Text color="orange" weight={300} componentTag="span">
+                <Text color="white" weight={200} componentTag="span">
                   Skills
                 </Text>
               </a>
             </li>
             <li>
               <a className="menu-item">
-                <Text color="red" weight={300} componentTag="span">
+                <Text color="white" weight={200} componentTag="span">
                   Work Experience
                 </Text>
               </a>
             </li>
             <li>
               <a className="menu-item">
-                <Text
-                  size="15px"
-                  color="green"
-                  weight={300}
-                  componentTag="span"
-                >
+                <Text color="white" weight={200} componentTag="span">
                   Contact Me
                 </Text>
               </a>
