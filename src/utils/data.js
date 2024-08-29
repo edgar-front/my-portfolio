@@ -57,4 +57,13 @@ export const WORK_EXPERIENCE = [
       "Work with other trainees, analysis of team projects.",
     ],
   },
+  {
+    title: "Project about Weather,Climate",
+    date: "October 2023",
+    responsibilities: [
+      "A project that shows the climate of each state at a given time",
+      "HTML CSS JavaScript technology solutions are used",
+      "The project provides significant scientific growth",
+    ],
+  },
 ];
