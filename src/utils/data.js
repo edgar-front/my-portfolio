@@ -37,3 +37,24 @@ export const SKILLS = [
     ],
   },
 ];
+
+export const WORK_EXPERIENCE = [
+  {
+    title: "Junior Web Developer",
+    date: "December 2023 - Present",
+    responsibilities: [
+      "Developed and maintained websites,ensuring high-quality standarts timely project delivery.",
+      "Worked closely with the design to create pixel-perfect,cross-browser-compatible web pages.",
+      "Conducted code reviews and adaptation best coding practices.",
+    ],
+  },
+  {
+    title: "Frontend Intern at Tumo Labs",
+    date: "July 2023 - December 2023",
+    responsibilities: [
+      "Creating new projects, learning the basics of web programming․",
+      "Fulfillment of challenges, design and logical solutions for websites.",
+      "Work with other trainees, analysis of team projects.",
+    ],
+  },
+];
