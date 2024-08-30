@@ -8,3 +8,34 @@
   font-weight: 600;
   margin-bottom: 48px;
 }
+
+.arrow-left,
+.arrow-right {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6751b9;
+  border-radius: 9px;
+  border: 1.5px solid #6751b9;
+  background: #130f2a;
+  position: absolute;
+  top: 55%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.arrow-left span,
+.arrow-right span {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.arrow-left {
+  left: -32px;
+}
+
+.arrow-right {
+  right: -32px;
+}

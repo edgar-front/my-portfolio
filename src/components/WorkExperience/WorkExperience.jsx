@@ -24,11 +24,27 @@ const WorkExperience = () => {
       },
     ],
   };
+
+  const slideRight = () => {
+    sliderRef.current.slickNext();
+  };
+
+  const slideLeft = () => {
+    sliderRef.current.slickPrev();
+  };
   return (
     <section className="experience-container">
       <h5>Work Experience</h5>
 
       <div className="experience-content">
+        <div className="arrow-right" onClick={slideRight}>
+          <span class="material-symbols-outlined"> ^ </span>
+        </div>
+
+        <div className="arrow-left" onClick={slideLeft}>
+          <span class="material-symbols-outlined"> ^ </span>
+        </div>
+
         <Slider ref={sliderRef} {...settings}>
           {WORK_EXPERIENCE.map((item) => (
             <ExperienceCard key={item.title} details={item} />
