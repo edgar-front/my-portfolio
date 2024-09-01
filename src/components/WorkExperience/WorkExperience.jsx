@@ -3,6 +3,7 @@ import "./WorkExperience.css";
 import { WORK_EXPERIENCE } from "../../utils/data";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import Slider from "react-slick";
+import Icon from "../Icon";
 
 const WorkExperience = () => {
   const sliderRef = useRef();
@@ -37,14 +38,21 @@ const WorkExperience = () => {
       <h5>Work Experience</h5>
 
       <div className="experience-content">
-        <div className="arrow-right" onClick={slideRight}>
-          <span class="material-symbols-outlined"> ^ </span>
-        </div>
+        <Icon
+          className={"arrow-right"}
+          name="chevron-right"
+          onClick={slideRight}
+          size={36}
+          color="#6751b9"
+        />
 
-        <div className="arrow-left" onClick={slideLeft}>
-          <span class="material-symbols-outlined"> ^ </span>
-        </div>
-
+        <Icon
+          className={"arrow-left"}
+          name="chevron-left"
+          onClick={slideLeft}
+          size={36}
+          color="#6751b9"
+        />
         <Slider ref={sliderRef} {...settings}>
           {WORK_EXPERIENCE.map((item) => (
             <ExperienceCard key={item.title} details={item} />
