@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Skills from "./components/Skills"
+import Skills from "./components/Skills";
+import WorkExperience from "./components/WorkExperience";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="container">
         <Hero />
         <Skills />
+        <WorkExperience />
       </div>
     </>
   );

@@ -1,0 +1,29 @@
+.experience-container {
+  margin: 64px 0;
+  position: relative;
+}
+
+.experience-container h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+.arrow-left,
+.arrow-right {
+  padding: 0 !important;
+  border-radius: 9px;
+  border: 1.5px solid #6751b9;
+  background: #130f2a;
+  position: absolute;
+  top: 55%;
+  z-index: 2;
+}
+
+.arrow-left {
+  left: -32px;
+}
+
+.arrow-right {
+  right: -32px;
+}

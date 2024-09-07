@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./styles.css";
 import { SKILLS } from "../../utils/data";
-import SkillCard from "./SkillCard/SkillCard";
-import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
+import SkillCard from "./SkillCard";
+import SkillsInfoCard from "./SkillsInfoCard";
 
 const Skills = () => {
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
