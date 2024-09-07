@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
-import WorkExperience from "./components/WorkExperience/WorkExperience";
+import WorkExperience from "./components/WorkExperience";
 
 function App() {
   return (

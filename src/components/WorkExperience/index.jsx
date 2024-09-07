@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import "./WorkExperience.css";
+import "./styles.css";
 import { WORK_EXPERIENCE } from "../../utils/data";
-import ExperienceCard from "./ExperienceCard/ExperienceCard";
+import ExperienceCard from "./ExperienceCard";
 import Slider from "react-slick";
 import Icon from "../Icon";
 
