@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Text from "../../Text";
 
 const ContactForm = () => {
   return (
@@ -11,7 +12,11 @@ const ContactForm = () => {
         </div>
         <input type="text" name="email" placeholder="Email" />
         <textarea type="text" name="message" placeholder="Message" rows={3} />
-        <button>SEND</button>
+        <button>
+          <Text color="#fff" size="16px" weight={500}>
+            SEND
+          </Text>
+        </button>
       </form>
     </div>
   );

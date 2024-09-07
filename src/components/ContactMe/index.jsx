@@ -9,13 +9,10 @@ const ContactMe = () => {
       <h5>Contact Me</h5>
       <div className="contact-content">
         <div style={{ flex: 1 }}>
+          <ContactInfoCard text="edgar.itmember@gmail.com" name="email-icon" />
           <ContactInfoCard
-            iconUrl="./assets/images/email-icon.svg"
-            text="edgar.itmember@gmail.com"
-          />
-          <ContactInfoCard
-            iconUrl="./assets/images/github-icon.svg"
             text="https://github.com/edgar-front/my-portfolio"
+            name="github-icon"
           />
         </div>
         <div style={{ flex: 1 }}>

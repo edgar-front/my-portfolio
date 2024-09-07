@@ -9,25 +9,12 @@
   padding: 24px;
   margin-bottom: 32px;
 }
-
-.contact-details-card .icon {
-  width: 64px;
-  height: 64px;
+.email,
+.github {
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
   background: #3d3072;
   margin-bottom: 14px;
-}
-
-.icon img {
-  width: 30px;
-  height: auto;
-  object-fit: contain;
-}
-
-.contact-details-card p {
-  font-size: 15px;
-  font-weight: 400;
 }

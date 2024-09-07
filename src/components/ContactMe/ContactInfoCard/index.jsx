@@ -1,13 +1,20 @@
 import React from "react";
 import "./styles.css";
+import Text from "../../Text";
+import Icon from "../../Icon";
 
-const ContactInfoCard = ({ iconUrl, text }) => {
+const ContactInfoCard = ({ text, name }) => {
   return (
     <div className="contact-details-card">
-      <div className="icon">
-        <img src={iconUrl} alt={text} />
-      </div>
-      <p>{text}</p>
+      <Icon
+        alt={text}
+        className={"email"}
+        size={64}
+        color="white"
+        name={name}
+      />
+
+      <Text>{text}</Text>
     </div>
   );
 };
