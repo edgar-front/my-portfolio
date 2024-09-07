@@ -2,11 +2,14 @@ import React from "react";
 import "./styles.css";
 import ContactInfoCard from "./ContactInfoCard";
 import ContactForm from "./ContactForm";
+import Text from "../Text";
 
 const ContactMe = () => {
   return (
     <section className="contact-container">
-      <h5>Contact Me</h5>
+      <Text weight={500} size="24px" componentTag="h5" marginB="42px">
+        Contact Me
+      </Text>
       <div className="contact-content">
         <div style={{ flex: 1 }}>
           <ContactInfoCard text="edgar.itmember@gmail.com" name="email-icon" />
