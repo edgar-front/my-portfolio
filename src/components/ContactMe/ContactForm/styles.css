@@ -1,0 +1,41 @@
+.contact-form-content {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 24px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  grid-gap: 24px;
+}
+
+form input,
+form textarea {
+  flex: 1;
+  width: 100%;
+  font-size: 15px;
+  color: #fff;
+  background: #130f2a;
+  border-radius: 9px;
+  border: 1.5px solid #6751b9;
+  padding: 16px;
+}
+
+form button {
+  border: 1.5px solid #a892fe;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
+  padding: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+form button:hover {
+  color: #a892fe;
+  background: transparent;
+}

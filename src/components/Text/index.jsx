@@ -6,6 +6,7 @@ const Text = ({
   weight = 400,
   componentTag = "div",
   color = "white",
+  margin = "24px",
   children,
 }) => {
   return (
@@ -15,6 +16,7 @@ const Text = ({
       style={{
         fontSize: size,
         fontWeight: weight,
+        margin: margin,
         color: color,
       }}
     >

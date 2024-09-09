@@ -1,0 +1,13 @@
+.contact-container {
+  margin: 64px 0;
+  position: relative;
+}
+
+.contact-content {
+  display: flex;
+  gap: 48px;
+}
+
+.container-text {
+  margin-bottom: 48px;
+}
