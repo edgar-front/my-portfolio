@@ -1,6 +1,7 @@
-.dev,
-.inyan {
-  background: linear-gradient(90deg, #3d3072 0%, #423477 100%);
-  padding: 16px;
-  cursor: pointer;
+.footer-icons {
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+  }
 }
