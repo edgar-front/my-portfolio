@@ -1,6 +1,6 @@
 .dev,
 .inyan {
-  text-align: center;
   background: linear-gradient(90deg, #3d3072 0%, #423477 100%);
   padding: 16px;
+  cursor: pointer;
 }
