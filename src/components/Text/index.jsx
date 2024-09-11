@@ -2,16 +2,18 @@ import React from "react";
 import "./styles.css";
 
 const Text = ({
+  className = " ",
   size = "1.6rem",
   weight = 400,
   componentTag = "div",
   color = "white",
+
   children,
 }) => {
   return (
     <div
+      className={`text-component ${className}`}
       as={componentTag}
-      className="text-component"
       style={{
         fontSize: size,
         fontWeight: weight,
