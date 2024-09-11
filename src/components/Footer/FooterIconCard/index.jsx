@@ -4,9 +4,7 @@ import Icon from "../../Icon";
 
 const FooterIconCard = ({ name }) => {
   return (
-    <div className="footer-details-card">
-      <Icon className={"footer-icons"} size={64} color="white" name={name} />
-    </div>
+    <Icon className={"footer-icons"} size={64} color="white" name={name} />
   );
 };
 
