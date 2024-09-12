@@ -1,0 +1,21 @@
+.mobile-menu {
+  width: 1920px;
+  height: 1080px;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999 !important;
+  opacity: 0;
+  box-shadow: 0px 29px 80px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  transform: translateX(-1080px);
+}
+
+.mobile-menu-container {
+  width: 1152px;
+  height: 1080px;
+  background-color: #342864;
+  padding: 32px;
+}

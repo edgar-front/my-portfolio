@@ -4,7 +4,8 @@ import Text from "../Text";
 import MobileNav from "./MobileNav";
 
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState[false];
+  const [openMenu, setOpenMenu] = useState(false);
+
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
@@ -54,7 +55,10 @@ const Navbar = () => {
 
           <button class="menu-btn" onClick={toggleMenu}>
             <div class="material-symbols-outlined">
-              {openMenu ? "close" : "menu"}
+              <div></div>
+              <div></div>
+              <div></div>
+              {/* {openMenu ? "close" : "menu"} */}
             </div>
           </button>
         </div>
