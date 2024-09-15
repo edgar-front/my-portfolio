@@ -1,30 +1,38 @@
 import React from "react";
 import "./styles.css";
+import Text from "../../Text";
+import { BurgerButton } from "../../BurgerButton";
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
   return (
     <>
-      <div
-        className={`mobile-menu ${isOpen ? "active" : ""}`}
-        onClick={toggleMenu}
-      >
+      <div className={`mobile-menu ${isOpen ? "active" : ""}`}>
+        <BurgerButton isOpen={true} onClick={toggleMenu} />
         <div className="mobile-menu-container">
           <img className="logo" src="assets/images/logo.svg" alt="" />
           <ul>
             <li>
-              <a className="menu-item">Home</a>
+              <a className="menu-item">
+                <Text size="18px">Home</Text>
+              </a>
             </li>
             <li>
-              <a className="menu-item">Skills</a>
+              <a className="menu-item">
+                <Text size="18px">Skills</Text>
+              </a>
             </li>
             <li>
-              <a className="menu-item">Work Experience</a>
+              <a className="menu-item">
+                <Text size="18px">Work Experience</Text>
+              </a>
             </li>
             <li>
-              <a className="menu-item">Contact Me</a>
+              <a className="menu-item">
+                <Text size="18px">Contact Me</Text>
+              </a>
             </li>
             <button className="contact-btn" onClick={() => {}}>
-              Hire Me
+              <Text size="18px">Hire Me</Text>
             </button>
           </ul>
         </div>

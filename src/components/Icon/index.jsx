@@ -8,6 +8,7 @@ const Icon = memo(
         const paths = svg.querySelectorAll("path");
         paths.forEach((path) => {
           path.style.fill = color;
+          path.style.stroke = color;
         });
         svg.setAttribute("style", "width: 100%; height: 100%;");
       },

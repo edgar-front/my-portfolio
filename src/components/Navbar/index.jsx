@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import Text from "../Text";
+import { BurgerButton } from "../BurgerButton";
 import MobileNav from "./MobileNav";
 
 const Navbar = () => {
@@ -53,14 +54,7 @@ const Navbar = () => {
             </button>
           </ul>
 
-          <button class="menu-btn" onClick={toggleMenu}>
-            <div class="material-symbols-outlined">
-              <div></div>
-              <div></div>
-              <div></div>
-              {/* {openMenu ? "close" : "menu"} */}
-            </div>
-          </button>
+          <BurgerButton isOpen={false} onClick={toggleMenu} />
         </div>
       </nav>
     </>

@@ -1,12 +1,20 @@
-
 * {
-  font-family: "Poppins", sans-serif;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
+  width: 100%;
   color: #fff;
   background-color: #060417;
-  
+  overflow: auto;
+  scrollbar-width: none;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
