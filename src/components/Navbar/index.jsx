@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import Text from "../Text";
+import { BurgerButton } from "../BurgerButton";
+import MobileNav from "./MobileNav";
 
 const Navbar = () => {
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
   return (
     <>
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+
       <nav className="nav-wrapper">
         <div className="nav-content">
           <span>Time to program</span>
-          {/* <img className="logo" src="./assets/images/logo.svg" alt="" /> */}
+
           <ul>
             <li>
               <a className="menu-item">
@@ -44,13 +54,7 @@ const Navbar = () => {
             </button>
           </ul>
 
-          <button class="menu-btn" onClick={() => {}}>
-            <div class="material-symbols-outlined">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </button>
+          <BurgerButton isOpen={false} onClick={toggleMenu} />
         </div>
       </nav>
     </>

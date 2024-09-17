@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Text = ({
   className = " ",
-  size = "1.6rem",
+  size = "16px",
   weight = 400,
   componentTag = "div",
   color = "white",
