@@ -121,4 +121,26 @@
     width: 64px;
     height: 64px;
   }
+
+  .tech-icon img {
+    width: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-img {
+    margin: 32px 0 32px 0;
+  }
+
+  .hero-container h2 {
+    margin-top: 48px;
+  }
+  .hero-content h2,
+  .hero-content p {
+    width: auto;
+    text-align: center;
+  }
 }
