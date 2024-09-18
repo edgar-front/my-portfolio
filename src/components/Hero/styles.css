@@ -143,4 +143,19 @@
     width: auto;
     text-align: center;
   }
+  .hero-container::after,
+  .hero-container::before {
+    content: " ";
+    width: 288px;
+    height: 288px;
+  }
+
+  .hero-container::after {
+    top: 0;
+    left: 0;
+  }
+  .hero-container::before {
+    bottom: 32px;
+    right: 0;
+  }
 }
