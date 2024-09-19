@@ -159,3 +159,23 @@
     right: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .hero-content h2 {
+    font-size: 33px;
+    line-height: 48px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .hero-img {
+    gap: 16px;
+  }
+
+  .hero-img > div {
+    gap: 16px;
+  }
+}
