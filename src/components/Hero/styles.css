@@ -82,24 +82,24 @@
   line-height: 18px;
 }
 
-.hero-img {
+.hero-img-wrapper {
   gap: 16px;
 }
 
-.hero-img > div {
+.hero-img-wrapper > div {
   gap: 16px;
 }
 
-.hero-img > div > img {
+.hero-img-wrapper > div > img {
   width: 256px;
 }
 
-.tech-icon {
+.react-icon {
   width: 50px;
   height: 50px;
 }
 
-.tech-icon img {
+.react-icon img {
   width: 32px;
 }
 
@@ -113,16 +113,16 @@
     line-height: 25px;
   }
 
-  .hero-img > div > img {
+  .hero-img-wrapper > div > img {
     width: 320px;
   }
 
-  .tech-icon {
+  .react-icon {
     width: 64px;
     height: 64px;
   }
 
-  .tech-icon img {
+  .react-icon img {
     width: 40px;
   }
 }
@@ -131,7 +131,7 @@
   .hero-container {
     flex-direction: column;
   }
-  .hero-img {
+  .hero-img-wrapper {
     margin: 32px 0 32px 0;
   }
 
@@ -171,24 +171,24 @@
     line-height: 18px;
   }
 
-  .hero-img {
+  .hero-img-wrapper {
     gap: 16px;
   }
 
-  .hero-img > div {
+  .hero-img-wrapper > div {
     gap: 16px;
   }
 
-  .hero-img > div > img {
+  .hero-img-wrapper > div > img {
     width: 256px;
   }
 
-  .tech-icon {
+  .react-icon {
     width: 49px;
     height: 49px;
   }
 
-  .tech-icon img {
+  .react-icon img {
     width: 32px;
   }
 }
