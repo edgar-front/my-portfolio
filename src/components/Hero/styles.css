@@ -94,12 +94,12 @@
   width: 256px;
 }
 
-.react-icon {
+.second-row {
   width: 50px;
   height: 50px;
 }
 
-.react-icon img {
+.second-row img {
   width: 32px;
 }
 
@@ -117,12 +117,12 @@
     width: 320px;
   }
 
-  .react-icon {
+  .second-row {
     width: 64px;
     height: 64px;
   }
 
-  .react-icon img {
+  .second-row img {
     width: 40px;
   }
 }
@@ -183,12 +183,12 @@
     width: 256px;
   }
 
-  .react-icon {
+  .second-row {
     width: 49px;
     height: 49px;
   }
 
-  .react-icon img {
+  .second-row img {
     width: 32px;
   }
 }
