@@ -178,4 +178,17 @@
   .hero-img > div {
     gap: 16px;
   }
+
+  .hero-img > div > img {
+    width: 256px;
+  }
+
+  .tech-icon {
+    width: 49px;
+    height: 49px;
+  }
+
+  .tech-icon img {
+    width: 32px;
+  }
 }
