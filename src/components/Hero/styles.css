@@ -104,7 +104,7 @@
 }
 
 @media (max-width: 1025px) {
-  .hero-content h2 {
+  .hero-title {
     font-size: 48px;
     line-height: 64px;
   }
