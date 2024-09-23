@@ -138,7 +138,7 @@
   .hero-container h2 {
     margin-top: 48px;
   }
-  .hero-content h2,
+  .hero-title,
   .hero-content p {
     width: auto;
     text-align: center;
@@ -161,7 +161,7 @@
 }
 
 @media (max-width: 600px) {
-  .hero-content h2 {
+  .hero-title {
     font-size: 33px;
     line-height: 48px;
   }
