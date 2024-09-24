@@ -6,35 +6,30 @@ const Hero = () => {
   return (
     <section className="hero-container">
       <div className="hero-content">
-        <Text
-          componentTag="h2"
-          className="hero-title"
-          size="3.8rem"
-          weight={600}
-        >
+        <Text weight={600} componentTag="h2" className="hero-title">
           Buliding Digital Experiences That Inspire
         </Text>
-        <p>
+        <Text className="hero-subtitle" componentTag="p">
           Passionate Frontend Developer | Transforming Ideas Into Seamless and
           Visually Stunning Web Solutions
-        </p>
+        </Text>
       </div>
 
       <div className="hero-img-wrapper">
         <div>
           <div className="first-row">
+            <img className="tool-icon" src="./assets/images/img01.png" alt="" />
             <img
-              className="react-icon"
-              src="./assets/images/img01.png"
+              className="hero-main-img"
+              src="./assets/images/img11.jpg"
               alt=""
             />
-            <img src="./assets/images/img11.jpg" alt="" />
           </div>
         </div>
         <div className="second-row">
-          <img src="./assets/images/img02.png" alt="" />
-          <img src="./assets/images/img03.png" alt="" />
-          <img src="./assets/images/img04.png" alt="" />
+          <img className="tool-icon" src="./assets/images/img02.png" alt="" />
+          <img className="tool-icon" src="./assets/images/img03.png" alt="" />
+          <img className="tool-icon" src="./assets/images/img04.png" alt="" />
         </div>
       </div>
     </section>
