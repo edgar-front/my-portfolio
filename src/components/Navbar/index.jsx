@@ -22,35 +22,29 @@ const Navbar = () => {
           <ul>
             <li>
               <a className="menu-item">
-                <Text color="white" weight={200} componentTag="span">
-                  Home
-                </Text>
+                <Text componentTag="span">Home</Text>
               </a>
             </li>
             <li>
               <a className="menu-item">
-                <Text color="white" weight={200} componentTag="span">
-                  Skills
-                </Text>
+                <Text componentTag="span">Skills</Text>
               </a>
             </li>
             <li>
               <a className="menu-item">
-                <Text color="white" weight={200} componentTag="span">
-                  Work Experience
-                </Text>
+                <Text componentTag="span">Work Experience</Text>
               </a>
             </li>
             <li>
               <a className="menu-item">
-                <Text color="white" weight={200} componentTag="span">
-                  Contact Me
-                </Text>
+                <Text componentTag="span">Contact Me</Text>
               </a>
             </li>
 
             <button className="contact-btn" onClick={() => {}}>
-              Hire Me
+              <Text weight={500} componentTag="span">
+                Hire Me
+              </Text>
             </button>
           </ul>
 

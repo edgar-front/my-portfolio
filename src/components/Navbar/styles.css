@@ -24,33 +24,32 @@
 .nav-content ul {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 48px;
   list-style: none;
 }
 
 .nav-content li {
-  margin: 0 24px;
-}
-
-.menu-item {
   position: relative;
   cursor: pointer;
+  padding: 8px 6px;
 }
 
-.menu-item::before {
+.nav-content li::before {
   content: " ";
   width: 32px;
   height: 3px;
-  background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
-  border-radius: 6px;
   position: absolute;
-  bottom: -9px;
+  left: 0;
+  bottom: 0;
+
   opacity: 0;
-  transform: translateX(-1.5rem);
-  transition: all 0.3s ease;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  transform: translateX(-12px);
+  background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
 }
 
-.menu-item:hover::before {
+.nav-content li:hover::before {
   width: 100%;
   transform: translateX(0);
   opacity: 1;
@@ -62,12 +61,11 @@
   justify-content: center;
   color: #fff;
   background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
-  padding: 9px, 3px;
+  padding: 8px 12px;
   border: none;
   outline: 1.5px solid transparent;
   border-radius: 3px;
   cursor: pointer;
-  transition: all 0.3 ease;
 }
 
 .contact-btn:hover {
@@ -89,8 +87,11 @@
   }
 }
 
-@media (max-width: 1325px) {
+@media (max-width: 1200px) {
   .nav-wrapper {
     padding: 0 32px;
+  }
+  .nav-content ul {
+    gap: 24px;
   }
 }
