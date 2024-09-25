@@ -176,6 +176,7 @@
 
   .hero-img-wrapper {
     gap: 16px;
+    margin: 24px 0;
   }
 
   .first-row {
@@ -185,9 +186,5 @@
   .second-row {
     gap: 16px;
     margin-left: 64px;
-  }
-
-  .hero-img-wrapper {
-    margin: 24px 0;
   }
 }
