@@ -64,4 +64,14 @@
     flex-direction: column-reverse;
     gap: 48px;
   }
+
+  .skills,
+  .skills-info {
+    width: 100%;
+  }
+
+  .skills-container h5 {
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
 }
