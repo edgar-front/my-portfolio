@@ -74,4 +74,10 @@
     font-size: 20px;
     margin-bottom: 32px;
   }
+
+  .skills-container::after,
+  .skills-container::before {
+    width: 284px;
+    height: 256px;
+  }
 }
