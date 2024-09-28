@@ -60,4 +60,8 @@
   .skills-info p {
     font-size: 15px;
   }
+
+  .skills-info-content {
+    padding: 24px;
+  }
 }
