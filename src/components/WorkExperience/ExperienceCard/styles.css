@@ -40,3 +40,9 @@
   left: -11px;
   top: 4px;
 }
+
+@media (max-width: 768px) {
+  .work-experience-card {
+    margin: 0;
+  }
+}
