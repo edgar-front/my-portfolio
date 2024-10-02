@@ -36,3 +36,10 @@
     right: 0px;
   }
 }
+
+@media (max-width: 768px) {
+  .experience-container h5 {
+    font-size: 17px;
+    margin-bottom: 32px;
+  }
+}
