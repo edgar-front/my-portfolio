@@ -46,4 +46,8 @@
   .arrow-left {
     left: -16px;
   }
+
+  .arrow-right {
+    right: -16rem;
+  }
 }
