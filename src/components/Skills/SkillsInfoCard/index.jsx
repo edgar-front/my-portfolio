@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import Text from "../Text";
+import Text from "../../Text";
 
 const SkillsInfoCard = ({ heading, skills }) => {
   return (
