@@ -54,13 +54,6 @@
 }
 
 @media (max-width: 1024px) {
-  .skills-info-card h6 {
-    font-size: 17px;
-  }
-  .skills-info p {
-    font-size: 15px;
-  }
-
   .skills-info-content {
     padding: 24px;
   }
