@@ -16,4 +16,8 @@
   .contact-content {
     flex-direction: column-reverse;
   }
+
+  .contact-container h5 {
+    margin-bottom: 0;
+  }
 }
