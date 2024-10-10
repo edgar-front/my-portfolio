@@ -10,7 +10,7 @@ const ContactMe = () => {
       <Text
         className="container-text"
         weight={500}
-        size="24px"
+        size="22px"
         componentTag="h5"
       >
         Contact Me
