@@ -39,3 +39,9 @@ form button:hover {
   color: #a892fe;
   background: transparent;
 }
+
+@media (max-width: 450px) {
+  .name-container {
+    flex-direction: column;
+  }
+}
