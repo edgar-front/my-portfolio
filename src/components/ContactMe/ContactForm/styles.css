@@ -51,4 +51,8 @@ form button:hover {
     padding: 13px;
     border-radius: 6px;
   }
+
+  form button {
+    padding: 13px;
+  }
 }
