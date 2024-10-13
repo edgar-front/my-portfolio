@@ -13,7 +13,7 @@ const ContactForm = () => {
         <input type="text" name="email" placeholder="Email" />
         <textarea type="text" name="message" placeholder="Message" rows={3} />
         <button>
-          <Text color="#fff" size="16px" weight={400}>
+          <Text color="#fff" size="15px" weight={400}>
             SEND
           </Text>
         </button>
