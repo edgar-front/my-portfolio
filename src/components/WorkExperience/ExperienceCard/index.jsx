@@ -12,7 +12,9 @@ const ExperienceCard = ({ details }) => {
 
       <ul>
         {details.responsibilities.map((item) => (
-          <li key={item}>{item}</li>
+          <li size="14px" key={item}>
+            {item}
+          </li>
         ))}
       </ul>
     </div>
