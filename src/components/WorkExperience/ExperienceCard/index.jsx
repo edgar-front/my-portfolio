@@ -4,7 +4,7 @@ import Text from "../../Text";
 const ExperienceCard = ({ details }) => {
   return (
     <div className="work-experience-card">
-      <Text size="15" componentTag="h5">
+      <Text size="15px" componentTag="h5">
         {details.title}
       </Text>
 
