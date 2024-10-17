@@ -17,7 +17,7 @@
 }
 
 .skills-card span {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -46,10 +46,6 @@
     padding: 32px;
   }
 
-  .skills-card span {
-    font-size: 16px;
-  }
-
   .skill-icon {
     width: 48px;
     height: 48px;
@@ -57,11 +53,5 @@
 
   .skill-icon img {
     width: 29px;
-  }
-}
-
-@media (max-width: 768px) {
-  .skills-card span {
-    font-size: 15px;
   }
 }
