@@ -12,7 +12,12 @@ const Skills = () => {
   };
   return (
     <section>
-      <Text size="24px" componentTag="h5" className="skills-container">
+      <Text
+        size="24px"
+        componentTag="h5"
+        weight="500"
+        className="skills-container"
+      >
         Technical Proficiency
       </Text>
       <div className="skills-content">
