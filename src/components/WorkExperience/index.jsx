@@ -35,10 +35,9 @@ const WorkExperience = () => {
     sliderRef.current.slickPrev();
   };
   return (
-    <section>
-      {" "}
-      <Text className="experience-container" size="24px">
-        Work Experience
+    <section className="experience-container">
+      <Text size="24px">
+        <h5>Work Experience</h5>
       </Text>
       <div className="experience-content">
         <Icon
