@@ -36,7 +36,7 @@ const WorkExperience = () => {
   };
   return (
     <section className="experience-container">
-      <Text size="24px">
+      <Text size="24px" weight="500">
         <h5>Work Experience</h5>
       </Text>
       <div className="experience-content">
