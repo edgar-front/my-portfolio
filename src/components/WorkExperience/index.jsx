@@ -4,6 +4,7 @@ import { WORK_EXPERIENCE } from "../../utils/data";
 import ExperienceCard from "./ExperienceCard";
 import Slider from "react-slick";
 import Icon from "../Icon";
+import Text from "../Text";
 
 const WorkExperience = () => {
   const sliderRef = useRef();
@@ -34,9 +35,11 @@ const WorkExperience = () => {
     sliderRef.current.slickPrev();
   };
   return (
-    <section className="experience-container">
-      <h5>Work Experience</h5>
-
+    <section>
+      {" "}
+      <Text className="experience-container" size="24px">
+        Work Experience
+      </Text>
       <div className="experience-content">
         <Icon
           className={"arrow-right"}
