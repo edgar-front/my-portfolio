@@ -49,7 +49,7 @@ form button:hover {
   form input,
   form textarea {
     padding: 13px;
-    border-radius: 6px;
+    border-radius: 5px;
   }
 
   form button {
