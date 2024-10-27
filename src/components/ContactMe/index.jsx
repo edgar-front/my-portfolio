@@ -7,12 +7,7 @@ import Text from "../Text";
 const ContactMe = () => {
   return (
     <section className="contact-container">
-      <Text
-        className="container-text"
-        weight={500}
-        size="22px"
-        componentTag="h5"
-      >
+      <Text className="container-text" weight={600} size="22px">
         Contact Me
       </Text>
       <div className="contact-content">
