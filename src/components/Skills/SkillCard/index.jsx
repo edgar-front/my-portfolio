@@ -8,6 +8,7 @@ const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
       weight="500"
       className={`skills-card ${isActive ? "active" : ""}`}
       onClick={() => onClick()}
+      size="16px"
     >
       <div className="skill-icon">
         <img src={iconUrl} alt="{title}" />
