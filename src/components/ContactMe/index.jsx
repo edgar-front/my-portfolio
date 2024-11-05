@@ -6,7 +6,7 @@ import Text from "../Text";
 
 const ContactMe = () => {
   return (
-    <section>
+    <section className="contact-section">
       <Text
         className="contact-container"
         weight={600}
@@ -16,7 +16,7 @@ const ContactMe = () => {
         Contact Me
       </Text>
       <div className="contact-content">
-        <div style={{ flex: 1 }}>
+        <div className="contact-card-wrapper">
           <ContactInfoCard text="edgar.itmember@gmail.com" name="email-icon" />
           <ContactInfoCard
             text="https://github.com/edgar-front/my-portfolio"

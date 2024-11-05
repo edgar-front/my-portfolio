@@ -4,7 +4,7 @@ import Icon from "../../Icon";
 
 const FooterIconCard = ({ name }) => {
   return (
-    <Icon className={"footer-icons"} size={64} color="white" name={name} />
+    <Icon className={"footer-icons"} size={48} color="white" name={name} />
   );
 };
 

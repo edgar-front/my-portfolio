@@ -1,5 +1,9 @@
+.contact-section {
+  margin-bottom: 64px;
+}
+
 .contact-container {
-  margin: 45px 0;
+  margin: 48px 0 24px;
   position: relative;
 }
 
@@ -10,6 +14,13 @@
 
 .container-text {
   margin-bottom: 45px;
+}
+
+.contact-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1;
 }
 
 @media (max-width: 768px) {

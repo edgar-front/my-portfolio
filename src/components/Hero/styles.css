@@ -48,7 +48,7 @@
 .first-row {
   display: flex;
   align-items: baseline;
-  gap: 24px;
+  gap: 16px;
 }
 
 .tool-icon {
@@ -60,10 +60,14 @@
   transition: all 0.3s ease;
 }
 
+.tool-icon:hover {
+  transform: translateY(-8px);
+}
+
 .second-row {
   display: flex;
   gap: 24px;
-  margin-left: 104px;
+  margin-left: 80px;
 }
 
 .hero-img-wrapper {

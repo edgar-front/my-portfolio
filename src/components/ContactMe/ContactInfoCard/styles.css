@@ -7,8 +7,8 @@
   border-radius: 9px;
   border: 1.5px solid #6751b9;
   padding: 24px;
-  margin-bottom: 32px;
 }
+
 .email,
 .github {
   display: flex;
