@@ -27,8 +27,6 @@
 }
 
 .skills-container h5 {
-  font-size: 24px;
-  font-weight: 600;
   margin-bottom: 56px;
 }
 
@@ -56,5 +54,33 @@
   .skills,
   .skills-content {
     grid-gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-content {
+    flex-direction: column-reverse;
+    gap: 48px;
+  }
+
+  .skills,
+  .skills-info {
+    width: 100%;
+  }
+
+  .skills-container {
+    margin-bottom: 32px;
+  }
+
+  .skills-container::after,
+  .skills-container::before {
+    width: 284px;
+    height: 284px;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-container {
+    padding: 0;
   }
 }

@@ -3,6 +3,7 @@ import "./styles.css";
 import { SKILLS } from "../../utils/data";
 import SkillCard from "./SkillCard";
 import SkillsInfoCard from "./SkillsInfoCard";
+import Text from "../Text";
 
 const Skills = () => {
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
@@ -10,8 +11,15 @@ const Skills = () => {
     setSelectedSkill(data);
   };
   return (
-    <section className="skills-container">
-      <h5>Technical Proficiency</h5>
+    <section>
+      <Text
+        size="24px"
+        componentTag="h5"
+        weight="500"
+        className="skills-container"
+      >
+        Technical Proficiency
+      </Text>
       <div className="skills-content">
         <div className="skills">
           {SKILLS.map((item) => (

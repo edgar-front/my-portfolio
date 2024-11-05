@@ -4,6 +4,8 @@ import "./styles.css";
 const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
   return (
     <div
+      size="16px"
+      weight="500"
       className={`skills-card ${isActive ? "active" : ""}`}
       onClick={() => onClick()}
     >
