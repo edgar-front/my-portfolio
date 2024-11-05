@@ -4,8 +4,6 @@
 }
 
 .experience-container h5 {
-  font-size: 24px;
-  font-weight: 600;
   margin-bottom: 48px;
 }
 
@@ -26,4 +24,27 @@
 
 .arrow-right {
   right: -32px;
+}
+
+@media (max-width: 1024px) {
+  .arrow-left {
+    left: 0px;
+  }
+  .arrow-right {
+    right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-container h5 {
+    margin-bottom: 30px;
+  }
+
+  .arrow-left {
+    left: -16px;
+  }
+
+  .arrow-right {
+    right: -16px;
+  }
 }
