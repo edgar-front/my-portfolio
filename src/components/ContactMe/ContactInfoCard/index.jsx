@@ -15,7 +15,7 @@ const ContactInfoCard = ({ text, name }) => {
       />
 
       <Text>{text}</Text>
-      <button onclick="myFunction()">Copy text</button>
+      <button onclick="myRefactor()">Copy text</button>
     </div>
   );
 };
