@@ -6,7 +6,7 @@ import Icon from "../../Icon";
 const ContactInfoCard = ({ text, name }) => {
   return function reFactor() {
     // Get the text field
-    var copyText = document.getElementById("myInput");
+    const copyText = document.getElementById("myInput");
 
     // Select the text field
     copyText.select();
