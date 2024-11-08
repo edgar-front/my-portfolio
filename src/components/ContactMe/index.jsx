@@ -18,6 +18,7 @@ const ContactMe = () => {
       <div className="contact-content">
         <div className="contact-card-wrapper">
           <ContactInfoCard text="edgar.itmember@gmail.com" name="email-icon" />
+
           <ContactInfoCard
             text="https://github.com/edgar-front/my-portfolio"
             name="github-icon"

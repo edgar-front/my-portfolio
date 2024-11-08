@@ -4,17 +4,7 @@ import Text from "../../Text";
 import Icon from "../../Icon";
 
 const ContactInfoCard = ({ text, name }) => {
-  return function reFactor() {
-    // Get the text field
-    const copyText = document.getElementById("myInput");
-
-    // Select the text field
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); // For mobile devices
-
-    // Copy the text inside the text field
-    navigator.clipboard.writeText(copyText.value);
-
+  return (
     <div className="contact-details-card">
       <Icon
         alt={text}
@@ -25,8 +15,9 @@ const ContactInfoCard = ({ text, name }) => {
       />
 
       <Text>{text}</Text>
-    </div>;
-  };
+      <button onclick="myFunction()">Copy text</button>
+    </div>
+  );
 };
 
 export default ContactInfoCard;
