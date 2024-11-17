@@ -19,16 +19,16 @@ const ContactMe = () => {
       <div className="contact-content">
         <div className="contact-card-wrapper">
           <ContactInfoCard
-            text="My Gmail-Page"
+            text="Gmail-Page"
             name="email-icon"
-            link="https://edgar.itmember@gmail.com"
-            linkLabel="Visit myGmail-Account"
+            link="http://edgar.itmember@gmail.com"
+            linkLabel="Visit myGmail-Acc"
           />
           <ContactInfoCard
-            text="My Github-Page"
+            text="Github-Page"
             name="github-icon"
             link="https://github.com/edgar-front"
-            linkLabel="Visit myGithub"
+            linkLabel="Visit myGithub-Acc"
           />
         </div>
         <div style={{ flex: 1 }}>
