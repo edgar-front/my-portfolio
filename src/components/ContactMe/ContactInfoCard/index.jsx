@@ -22,10 +22,14 @@ const ContactInfoCard = ({ text, name }) => {
       />
 
       <Text>{text}</Text>
-      <a href="https://github.com/edgar-front" target="_blank">
+      <a href="https://github.com/edgar-front" target="_blank" rel="noreferrer">
         Visit myGithub
       </a>
-      <a href="https://mail.google.com/mail/u/3/#inbox" target="_blank">
+      <a
+        href="https://mail.google.com/mail/u/3/#inbox"
+        target="_blank"
+        rel="noreferrer"
+      >
         Visit myGmail-Account
       </a>
     </div>
