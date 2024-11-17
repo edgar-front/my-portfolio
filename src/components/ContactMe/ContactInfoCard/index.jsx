@@ -13,22 +13,17 @@ const ContactInfoCard = ({ text, name }) => {
         color="white"
         name={name}
       />
+      <Icon
+        alt={text}
+        className={"copy"}
+        size={64}
+        color="white"
+        name={"copy-icon"}
+      />
 
       <Text>{text}</Text>
-      <button onclick="myRefactor()">Copy text</button>
     </div>
   );
-  function myFunction() {
-    var copyText = document.getElementById("myInput");
-
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); // For mobile devices
-
-    navigator.clipboard.writeText(copyText.value);
-
-    alert("Copied the text: " + copyText.value);
-    myFunction();
-  }
 };
 
 export default ContactInfoCard;
