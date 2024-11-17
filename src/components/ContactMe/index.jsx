@@ -12,13 +12,24 @@ const ContactMe = () => {
         weight={600}
         size="22px"
         componentTag="h5"
+        color="#C864C1"
       >
         Contact Me
       </Text>
       <div className="contact-content">
         <div className="contact-card-wrapper">
-          <ContactInfoCard text="My Gmail-Account" name="email-icon" />
-          <ContactInfoCard text="My Github-Page" name="github-icon" />
+          <ContactInfoCard
+            text="My Gmail-Page"
+            name="email-icon"
+            link="https://edgar.itmember@gmail.com"
+            linkLabel="Visit myGmail-Account"
+          />
+          <ContactInfoCard
+            text="My Github-Page"
+            name="github-icon"
+            link="https://github.com/edgar-front"
+            linkLabel="Visit myGithub"
+          />
         </div>
         <div style={{ flex: 1 }}>
           <ContactForm />

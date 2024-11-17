@@ -3,7 +3,7 @@ import "./styles.css";
 import Text from "../../Text";
 import Icon from "../../Icon";
 
-const ContactInfoCard = ({ text, name }) => {
+const ContactInfoCard = ({ text, name, link, linkLabel }) => {
   return (
     <div className="contact-details-card">
       <Icon
@@ -13,24 +13,11 @@ const ContactInfoCard = ({ text, name }) => {
         color="white"
         name={name}
       />
-      <Icon
-        alt={text}
-        className={"copy"}
-        size={64}
-        color="white"
-        name={"copy-icon"}
-      />
 
       <Text>{text}</Text>
-      <a href="https://github.com/edgar-front" target="_blank" rel="noreferrer">
-        Visit myGithub
-      </a>
-      <a
-        href="https://mail.google.com/mail/u/3/#inbox"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Visit myGmail-Account
+
+      <a target="_blank" rel="noreferrer" href={link}>
+        {linkLabel}
       </a>
     </div>
   );
