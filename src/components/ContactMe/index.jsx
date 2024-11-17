@@ -17,14 +17,8 @@ const ContactMe = () => {
       </Text>
       <div className="contact-content">
         <div className="contact-card-wrapper">
-          <ContactInfoCard text="edgar.itmember@gmail.com" name="email-icon" />
-          <a href="https://github.com/edgar-front/my-portfolio" target="_blank">Visit myGithub</a> 
-          <ContactInfoCard
-
-            text="https://github.com/edgar-front/my-portfolio"
-
-            name="github-icon"
-          />
+          <ContactInfoCard text="My Gmail-Account" name="email-icon" />
+          <ContactInfoCard text="My Github-Page" name="github-icon" />
         </div>
         <div style={{ flex: 1 }}>
           <ContactForm />
