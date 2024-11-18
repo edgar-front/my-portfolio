@@ -19,11 +19,11 @@ const ContactMe = () => {
       <div className="contact-content">
         <div className="contact-card-wrapper">
           <ContactInfoCard
-            text="Gmail-Page"
+            text="edgar.itmember@gmail.com"
             name="email-icon"
-            link="http://edgar.itmember@gmail.com"
-            linkLabel="Visit myGmail-Acc"
+            showCopy="copy-icon"
           />
+
           <ContactInfoCard
             text="Github-Page"
             name="github-icon"

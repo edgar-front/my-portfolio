@@ -3,7 +3,7 @@ import "./styles.css";
 import Text from "../../Text";
 import Icon from "../../Icon";
 
-const ContactInfoCard = ({ text, name, link, linkLabel }) => {
+const ContactInfoCard = ({ text, name, link, linkLabel, showCopy }) => {
   return (
     <div className="contact-details-card">
       <Icon
@@ -13,6 +13,16 @@ const ContactInfoCard = ({ text, name, link, linkLabel }) => {
         color="white"
         name={name}
       />
+
+      <button className="copy-button" onclick="copyContent()">
+        <Icon
+          alt={text}
+          className={"copy"}
+          size={32}
+          color="white"
+          name={"copy-icon"}
+        />
+      </button>
 
       <Text>{text}</Text>
 
