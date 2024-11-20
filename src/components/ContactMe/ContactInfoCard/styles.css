@@ -21,4 +21,5 @@
 
 .copy-button {
   background: mediumorchid;
+  cursor: pointer;
 }
