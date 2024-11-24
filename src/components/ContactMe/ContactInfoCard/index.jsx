@@ -1,17 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./styles.css";
 import Text from "../../Text";
 import Icon from "../../Icon";
 
 const ContactInfoCard = ({ text, name, link, linkLabel, showCopy }) => {
   const [isCopied, setIsCopied] = useState(false);
-
+  useEffect(() => {
+    const timer = setTimeout(() => setIsCopied(false), 2000); // Hide message after 2 seconds
+    return () => clearTimeout(timer);
+  }, [isCopied]);
   const handleCopy = () => {
     navigator.clipboard
       .writeText("edgar.itmember@gmail.com")
       .then(() => {
         setIsCopied(true);
-        setTimeout(() => setIsCopied(false), 2000); // Hide message after 2 seconds
       })
       .catch((err) => {
         console.error("Failed to copy text: ", err);
