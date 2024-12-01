@@ -28,7 +28,7 @@ const ContactMe = () => {
             text="Github-Page"
             name="github-icon"
             link="https://github.com/edgar-front"
-            linkLabel="Visit myGithub-Acc"
+            linkLabel="Visit Github-Acc"
           />
         </div>
         <div style={{ flex: 1 }}>
