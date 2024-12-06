@@ -60,7 +60,8 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+  background-color: var(--accent-color);
+  /*background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);*/
   padding: 8px 12px;
   border: none;
   outline: 1.5px solid transparent;
@@ -69,8 +70,9 @@
 }
 
 .contact-btn:hover {
-  color: #a993fe;
-  background: #000;
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+  /*background: #000;*/
   outline: 1.5px solid #a993fe;
 }
 
