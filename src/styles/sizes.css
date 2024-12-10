@@ -1,8 +1,11 @@
 :root {
-  --xxsmall: xxsmall-size;
-  --xsmall: xsmall-size;
-  --small: small-size;
-  --medium: medium-size;
-  --large: large-size;
-  --xlarge: xlarge-size;
+  /* Sizes */
+  --size-xsmall: 4px;
+  --size-small: 8px;
+  --size-medium: 16px;
+  --size-large: 24px;
+  --size-xlarge: 32px;
+  --size-xxlarge: 48px;
+  --size-xxxlarge: 64px;
+  /* And so on */
 }

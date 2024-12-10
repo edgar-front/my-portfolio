@@ -41,10 +41,10 @@
   }
 
   .arrow-left {
-    left: -16px;
+    left: -var(--size-medium);
   }
 
   .arrow-right {
-    right: -16px;
+    right: -var(--size-medium);
   }
 }

@@ -33,7 +33,7 @@
 .mobile-menu ul {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--size-medium);
   list-style: none;
 }
 
@@ -47,6 +47,6 @@
   }
 
   .contact-btn {
-    margin-top: 16px;
+    margin-top: var(--size-medium);
   }
 }

@@ -50,7 +50,7 @@
 
 .mobile-burger-close {
   position: absolute;
-  top: 16px;
+  top: var(--size-medium);
   right: 32px;
   background: #000;
   border: 1px solid #a993fe;

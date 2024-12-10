@@ -32,7 +32,7 @@
 
 .hero-title {
   font-size: 57px !important;
-  margin-bottom: 16px;
+  margin-bottom: var(--size-medium);
 }
 
 .hero-subtitle {
@@ -48,13 +48,13 @@
 .first-row {
   display: flex;
   align-items: baseline;
-  gap: 16px;
+  gap: var(--size-medium);
 }
 
 .tool-icon {
   width: 80px;
   height: 80px;
-  padding: 16px;
+  padding: var(--size-medium);
   border-radius: 10px;
   border: 1.5px solid #6852ba;
   transition: all 0.3s ease;
@@ -71,11 +71,11 @@
 }
 
 .hero-img-wrapper {
-  gap: 16px;
+  gap: var(--size-medium);
 }
 
 .hero-img-wrapper > div {
-  gap: 16px;
+  gap: var(--size-medium);
 }
 
 .hero-main-img {
@@ -135,7 +135,7 @@
 
   .hero-title {
     text-align: center;
-    margin: 16px auto;
+    margin: var(--size-medium) auto;
     max-width: 400px;
     font-size: 32px !important;
   }
@@ -179,16 +179,16 @@
   }
 
   .hero-img-wrapper {
-    gap: 16px;
+    gap: var(--size-medium);
     margin: 24px 0;
   }
 
   .first-row {
-    gap: 16px;
+    gap: var(--size-medium);
   }
 
   .second-row {
-    gap: 16px;
+    gap: var(--size-medium);
     margin-left: 64px;
   }
 }

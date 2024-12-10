@@ -49,7 +49,7 @@
 
 @media (max-width: 1024px) {
   .skills {
-    padding-left: 16px;
+    padding-left: var(--size-medium);
   }
 
   .skills,
