@@ -1,8 +1,8 @@
 .menu-btn {
   position: relative;
   z-index: 1000;
-  width: 32px;
-  height: 32px;
+  width: var(--size-xlarge);
+  height: var(--size-xlarge);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +51,7 @@
 .mobile-burger-close {
   position: absolute;
   top: var(--size-medium);
-  right: 32px;
+  right: var(--size-xlarge);
   background: #000;
   border: 1px solid #a993fe;
 }

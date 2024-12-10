@@ -36,7 +36,7 @@
 
 .nav-content li::before {
   content: " ";
-  width: 32px;
+  width: var(--size-xlarge);
   height: 3px;
   position: absolute;
   left: 0;
@@ -91,7 +91,7 @@
 
 @media (max-width: 1200px) {
   .nav-wrapper {
-    padding: 0 32px;
+    padding: 0 var(--size-xlarge);
   }
   .nav-content ul {
     gap: 24px;

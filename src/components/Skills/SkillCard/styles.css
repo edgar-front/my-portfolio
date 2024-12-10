@@ -9,7 +9,7 @@
   position: relative;
   cursor: pointer;
   transition: all 0.3s ease;
-  width: calc(50% - 32px);
+  width: calc(50% - var(--size-xlarge));
 }
 
 .skill-text {
@@ -43,7 +43,7 @@
 
 @media (max-width: 1024px) {
   .skills-card {
-    padding: 32px var(--size-medium);
+    padding: var(--size-xlarge) var(--size-medium);
     width: calc(50% - var(--size-medium));
   }
 

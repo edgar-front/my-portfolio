@@ -19,11 +19,11 @@
 }
 
 .arrow-left {
-  left: -32px;
+  left: -var(--size-xlarge);
 }
 
 .arrow-right {
-  right: -32px;
+  right: -var(--size-xlarge);
 }
 
 @media (max-width: 1400px) {
