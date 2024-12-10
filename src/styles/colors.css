@@ -2,7 +2,7 @@
   /* Primary Colors */
   --primary-color: #3498db; /* Blue */
   --secondary-color: #2ecc71; /* Green */
-  --accent-color: #e74c3c; /* Red */
+  --show-color: #e74c3c; /* Red */
 
   /* Neutral Colors */
   --white: #ffffff;
@@ -11,7 +11,7 @@
   --gray-dark: #2c3e50; /* Dark Gray */
 
   /* Backgrounds */
-  --background-light: #f7f9fa;
+  --border-light: #6852ba;
   --background-dark: #1c2833;
 
   /* Text Colors */
