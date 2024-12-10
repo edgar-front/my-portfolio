@@ -97,3 +97,24 @@
     gap: 24px;
   }
 }
+
+.nav-logo {
+  cursor: pointer;
+  user-select: none;
+  font-weight: 600;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.nav-logo:hover {
+  opacity: 0.8;
+}
+
+.nav-logo:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.nav-logo:focus:not(:focus-visible) {
+  outline: none;
+}

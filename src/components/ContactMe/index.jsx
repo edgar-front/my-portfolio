@@ -25,10 +25,10 @@ const ContactMe = () => {
           />
 
           <ContactInfoCard
-            text="Github-Page"
+            text="GitHub Page"
             name="github-icon"
             link="https://github.com/edgar-front"
-            linkLabel="Visit Github-Acc"
+            linkLabel="Visit GitHub-Account"
           />
         </div>
         <div style={{ flex: 1 }}>
