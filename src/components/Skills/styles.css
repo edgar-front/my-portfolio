@@ -39,7 +39,7 @@
 .skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: var(--size-xlarge);
   justify-content: space-between;
 }
 
@@ -49,12 +49,12 @@
 
 @media (max-width: 1024px) {
   .skills {
-    padding-left: 16px;
+    padding-left: var(--size-medium);
   }
 
   .skills,
   .skills-content {
-    grid-gap: 32px;
+    grid-gap: var(--size-xlarge);
   }
 }
 
@@ -74,7 +74,7 @@
   }
 
   .skills-container {
-    margin-bottom: 32px;
+    margin-bottom: var(--size-xlarge);
   }
 
   .skills-container::after,

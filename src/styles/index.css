@@ -1,7 +1,11 @@
+@import "./colors.css";
+@import "./sizes.css";
+
 * {
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  color: #c864c1;
 }
 
 body {

@@ -17,7 +17,22 @@ const Navbar = () => {
 
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <span>Time to program</span>
+          <span
+            className="nav-logo"
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }
+            }}
+            tabIndex={0}
+            role="button"
+            aria-label="Scroll to top"
+          >
+            Time to program
+          </span>
 
           <ul>
             <li>
