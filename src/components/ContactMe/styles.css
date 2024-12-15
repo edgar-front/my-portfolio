@@ -1,5 +1,5 @@
 .contact-section {
-  margin-bottom: 64px;
+  margin-bottom: var(--size-xxxlarge);
 }
 
 .contact-container {

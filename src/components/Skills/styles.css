@@ -1,5 +1,5 @@
 .skills-container {
-  margin: 64px 0;
+  margin: var(--size-xxxlarge) 0;
   position: relative;
 }
 

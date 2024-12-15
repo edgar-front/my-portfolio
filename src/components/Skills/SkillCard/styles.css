@@ -22,8 +22,8 @@
 }
 
 .skill-icon {
-  width: 64px;
-  height: 64px;
+  width: var(--size-xxxlarge);
+  height: var(--size-xxxlarge);
   display: flex;
   align-items: center;
   justify-content: center;

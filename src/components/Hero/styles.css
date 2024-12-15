@@ -123,13 +123,13 @@
   }
 
   .second-row {
-    width: 64px;
-    height: 64px;
+    width: var(--size-xxxlarge);
+    height: var(--size-xxxlarge);
   }
 
   .tool-icon {
-    width: 64px;
-    height: 64px;
+    width: var(--size-xxxlarge);
+    height: var(--size-xxxlarge);
   }
 }
 
@@ -201,7 +201,7 @@
 
   .second-row {
     gap: var(--size-medium);
-    margin-left: 64px;
+    margin-left: var(--size-xxxlarge);
   }
 }
 
