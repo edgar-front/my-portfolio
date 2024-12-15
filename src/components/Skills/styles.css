@@ -16,7 +16,7 @@
 }
 
 .skills-container::after {
-  top: -48px;
+  top: -var(--size-xxlarge);
   left: -80rem;
 }
 
@@ -33,7 +33,7 @@
 .skills-content {
   display: flex;
   align-items: flex-start;
-  gap: 48px;
+  gap: var(--size-xxlarge);
 }
 
 .skills {
@@ -61,7 +61,7 @@
 @media (max-width: 768px) {
   .skills-content {
     flex-direction: column-reverse;
-    gap: 48px;
+    gap: var(--size-xxlarge);
   }
 
   .skills {

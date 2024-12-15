@@ -27,7 +27,7 @@
 }
 
 .mobile-menu img {
-  margin-bottom: 48px;
+  margin-bottom: var(--size-xxlarge);
 }
 
 .mobile-menu ul {

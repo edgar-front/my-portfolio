@@ -24,7 +24,7 @@
 .nav-content ul {
   display: flex;
   align-items: center;
-  gap: 48px;
+  gap: var(--size-xxlarge);
   list-style: none;
 }
 

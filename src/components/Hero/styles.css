@@ -18,7 +18,7 @@
 }
 
 .hero-container::after {
-  top: -48px;
+  top: -var(--size-xxlarge);
   left: -80px;
 }
 
@@ -185,8 +185,8 @@
   }
 
   .tool-icon {
-    width: 48px;
-    height: 48px;
+    width: var(--size-xxlarge);
+    height: var(--size-xxlarge);
     padding: 10px;
   }
 
