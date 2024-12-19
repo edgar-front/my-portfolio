@@ -17,7 +17,7 @@
   width: 280px;
   height: 100svh;
   background-color: #342864;
-  padding: 32px;
+  padding: var(--size-xlarge);
 }
 
 .mobile-menu.active {
@@ -27,13 +27,13 @@
 }
 
 .mobile-menu img {
-  margin-bottom: 48px;
+  margin-bottom: var(--size-xxlarge);
 }
 
 .mobile-menu ul {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--size-medium);
   list-style: none;
 }
 
@@ -47,6 +47,6 @@
   }
 
   .contact-btn {
-    margin-top: 16px;
+    margin-top: var(--size-medium);
   }
 }

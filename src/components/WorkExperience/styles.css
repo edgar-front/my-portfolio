@@ -1,10 +1,10 @@
 .experience-container {
-  margin: 64px 0;
+  margin: var(--size-xxxlarge) 0;
   position: relative;
 }
 
 .experience-container h5 {
-  margin-bottom: 48px;
+  margin-bottom: var(--size-xxlarge);
 }
 
 .arrow-left,
@@ -41,10 +41,10 @@
   }
 
   .arrow-left {
-    left: -16px;
+    left: -var(--size-medium);
   }
 
   .arrow-right {
-    right: -16px;
+    right: -var(--size-medium);
   }
 }

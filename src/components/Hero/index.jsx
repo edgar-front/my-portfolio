@@ -19,11 +19,11 @@ const Hero = () => {
         <div>
           <div className="first-row">
             <img className="tool-icon" src="./assets/images/img01.png" alt="" />
-            <img
-              className="hero-main-img"
-              src="./assets/images/img11.jpg"
-              alt=""
-            />
+            <div
+              className="hero-img-container"
+              role="img"
+              aria-label="Hero section"
+            ></div>
           </div>
         </div>
         <div className="second-row">
