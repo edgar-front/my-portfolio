@@ -25,7 +25,7 @@
 .material-symbols-outlined {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: var(--size-xsmall);
 }
 
 .material-symbols-outlined > div {

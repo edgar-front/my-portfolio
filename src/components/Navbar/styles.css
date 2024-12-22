@@ -112,7 +112,7 @@
 .nav-logo:focus {
   outline: 2px solid var(--primary-color);
   outline-offset: 2px;
-  border-radius: 4px;
+  border-radius: var(--size-xsmall);
 }
 
 .nav-logo:focus:not(:focus-visible) {
