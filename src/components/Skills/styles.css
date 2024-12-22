@@ -65,7 +65,7 @@
   }
 
   .skills {
-    gap: 24px;
+    gap: var(--size-large);
   }
 
   .skills,

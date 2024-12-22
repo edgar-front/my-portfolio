@@ -3,7 +3,7 @@
 }
 
 .contact-container {
-  margin: var(--size-xxlarge) 0 24px;
+  margin: var(--size-xxlarge) 0 var(--size-large);
   position: relative;
 }
 

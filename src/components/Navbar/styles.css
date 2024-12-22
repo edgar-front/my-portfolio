@@ -1,5 +1,5 @@
 .nav-wrapper {
-  padding: var(--size-medium) 24px;
+  padding: var(--size-medium) var(--size-large);
   position: sticky;
   top: 0;
   z-index: 99;
@@ -94,7 +94,7 @@
     padding: 0 var(--size-xlarge);
   }
   .nav-content ul {
-    gap: 24px;
+    gap: var(--size-large);
   }
 }
 

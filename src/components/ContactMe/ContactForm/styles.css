@@ -5,13 +5,13 @@
 form {
   display: flex;
   flex-direction: column;
-  grid-gap: 24px;
+  grid-gap: var(--size-large);
 }
 
 .name-container {
   display: flex;
   align-items: center;
-  grid-gap: 24px;
+  grid-gap: var(--size-large);
 }
 
 form input,

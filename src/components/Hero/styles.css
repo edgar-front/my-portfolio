@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  margin-top: 24px;
+  margin-top: var(--size-large);
 }
 
 .hero-container::after,
@@ -42,7 +42,7 @@
 .hero-img-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: var(--size-large);
 }
 
 .first-row {
@@ -66,7 +66,7 @@
 
 .second-row {
   display: flex;
-  gap: 24px;
+  gap: var(--size-large);
   margin-left: 80px;
 }
 
@@ -176,7 +176,7 @@
 @media (max-width: 600px) {
   .hero-title {
     max-width: 310px;
-    font-size: 24px !important;
+    font-size: var(--size-large) !important;
   }
 
   .hero-img-container {
@@ -192,7 +192,7 @@
 
   .hero-img-wrapper {
     gap: var(--size-medium);
-    margin: 24px 0;
+    margin: var(--size-large) 0;
   }
 
   .first-row {

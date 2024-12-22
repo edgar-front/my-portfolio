@@ -6,7 +6,7 @@
   background: #130f2a;
   border-radius: 9px;
   border: 1.5px solid #6751b9;
-  padding: 24px;
+  padding: var(--size-large);
 }
 
 .contact-details-card.pointer {

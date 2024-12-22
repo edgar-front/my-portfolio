@@ -2,7 +2,7 @@
   background: #130f2a;
   border-radius: 9px;
   border: 1.5px solid #6751b9;
-  padding: 24px 40px;
+  padding: var(--size-large) 40px;
   margin: 0 var(--size-medium);
 }
 
