@@ -33,7 +33,7 @@
 .list-item::after {
   content: " ";
   width: var(--size-small);
-  height: 8px;
+  height: var(--size-small);
   background-color: #6751b9;
   border-radius: 8px;
   position: absolute;
