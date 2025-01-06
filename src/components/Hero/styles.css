@@ -81,7 +81,7 @@
 .hero-img-container {
   width: 756px;
   height: 472px;
-  border-radius: 8px;
+  border-radius: var(--size-small);
   background-image: url("../../../public/assets/images/hero-section-photo.jpg");
   background-position: top;
   background-repeat: no-repeat;
