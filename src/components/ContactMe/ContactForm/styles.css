@@ -28,7 +28,7 @@ form textarea {
 
 form button {
   border: 1.5px solid #a892fe;
-  border-radius: 15px;
+  border-radius: var(--size-medium);
   background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
   padding: 12px;
   transition: all 0.3s ease;
