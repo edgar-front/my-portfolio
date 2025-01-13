@@ -48,7 +48,7 @@ form button:hover {
 
   form input,
   form textarea {
-    padding: 15px;
+    padding: var(--size-medium);
     border-radius: 5px;
   }
 
