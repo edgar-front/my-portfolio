@@ -7,7 +7,7 @@
 }
 
 .work-experience-card h6 {
-  font-size: 17px;
+  font-size: var(--size-medium);
   font-weight: 500;
   margin-bottom: 13px;
 }
