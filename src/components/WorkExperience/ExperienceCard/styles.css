@@ -14,7 +14,7 @@
 
 .work-duration {
   display: inline-block;
-  font-size: 13px;
+  font-size: var(--size-medium);
   font-weight: 400;
   background: rgba(103, 81, 185, 0.5);
   border-radius: var(--size-small);
