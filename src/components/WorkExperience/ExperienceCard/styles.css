@@ -9,7 +9,7 @@
 .work-experience-card h6 {
   font-size: var(--size-medium);
   font-weight: 500;
-  margin-bottom: 13px;
+  margin-bottom: var(--size-medium);
 }
 
 .work-duration {
