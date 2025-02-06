@@ -10,7 +10,7 @@
 .arrow-left,
 .arrow-right {
   padding: 0 !important;
-  border-radius: 9px;
+  border-radius: var(--size-small);
   border: 1.5px solid #6751b9;
   background: #130f2a;
   position: absolute;
