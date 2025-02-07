@@ -39,7 +39,7 @@
 
 .skill-progress-bg {
   width: 100%;
-  height: 8px;
+  height: var(--size-small);
   background: #382e68;
   border-radius: 8px;
   margin: var(--size-medium) 0;
