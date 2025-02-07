@@ -41,7 +41,7 @@
   width: 100%;
   height: var(--size-small);
   background: #382e68;
-  border-radius: 8px;
+  border-radius: var(--size-small);
   margin: var(--size-medium) 0;
   overflow: hidden;
 }
