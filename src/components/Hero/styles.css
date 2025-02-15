@@ -187,7 +187,7 @@
   .tool-icon {
     width: var(--size-xxlarge);
     height: var(--size-xxlarge);
-    padding: 10px;
+    padding: var(--size-small);
   }
 
   .hero-img-wrapper {
