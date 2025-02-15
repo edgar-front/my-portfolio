@@ -43,7 +43,7 @@
   bottom: 0;
 
   opacity: 0;
-  border-radius: 6px;
+  border-radius: var(--size-small);
   transition: all 0.2s ease;
   transform: translateX(-12px);
   background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
