@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
   background: #2a2252;
-  border-radius: 9px;
+  border-radius: var(--size-small);
   border: 1.5px solid #6852ba;
   position: absolute;
   top: calc(var(--size-medium) * -1);
