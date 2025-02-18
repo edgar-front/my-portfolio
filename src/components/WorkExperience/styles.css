@@ -37,7 +37,7 @@
 
 @media (max-width: 768px) {
   .experience-container h5 {
-    margin-bottom: 30px;
+    margin-bottom: var(--size-xlarge);
   }
 
   .arrow-left {
