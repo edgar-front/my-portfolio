@@ -27,7 +27,7 @@
 }
 
 .skills-container h5 {
-  margin-bottom: 56px;
+  margin-bottom: var(--size-xxlarge);
 }
 
 .skills-content {
