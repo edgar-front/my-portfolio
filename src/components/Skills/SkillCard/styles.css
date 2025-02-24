@@ -53,6 +53,6 @@
   }
 
   .skill-icon img {
-    width: 29px;
+    width: var(--size-xlarge);
   }
 }
