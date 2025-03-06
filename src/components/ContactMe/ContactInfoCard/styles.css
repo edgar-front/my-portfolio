@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   background: #130f2a;
-  border-radius: 9px;
+  border-radius: var(--size-small);
   border: 1.5px solid #6751b9;
   padding: var(--size-large);
 }
