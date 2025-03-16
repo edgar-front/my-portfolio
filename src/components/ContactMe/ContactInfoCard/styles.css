@@ -58,7 +58,7 @@
   color: white;
   padding: var(--size-xsmall) 8px;
   border-radius: var(--size-xsmall);
-  font-size: 12px;
+  font-size: var(--size-medium);
   white-space: nowrap;
 }
 
