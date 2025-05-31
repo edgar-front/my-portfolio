@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer-content">
       <FooterIconCard name="dev-icon" />
-      <Text size="14px">© 2024 Time to Program, Happy Coding</Text>
+      <Text size="14px">© 2024 All rights reserved</Text>
       <FooterIconCard name="inyan-icon" />
     </div>
   );

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  margin-top: 24px;
+  margin-top: var(--size-large);
 }
 
 .hero-container::after,
@@ -18,12 +18,12 @@
 }
 
 .hero-container::after {
-  top: -48px;
+  top: -var(--size-xxlarge);
   left: -80px;
 }
 
 .hero-container::before {
-  bottom: 32px;
+  bottom: var(--size-xlarge);
   right: 0px;
 }
 .hero-content {
@@ -32,7 +32,7 @@
 
 .hero-title {
   font-size: 57px !important;
-  margin-bottom: 16px;
+  margin-bottom: var(--size-medium);
 }
 
 .hero-subtitle {
@@ -42,20 +42,20 @@
 .hero-img-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: var(--size-large);
 }
 
 .first-row {
   display: flex;
   align-items: baseline;
-  gap: 16px;
+  gap: var(--size-medium);
 }
 
 .tool-icon {
   width: 80px;
   height: 80px;
-  padding: 16px;
-  border-radius: 10px;
+  padding: var(--size-medium);
+  border-radius: var(--size-small);
   border: 1.5px solid #6852ba;
   transition: all 0.3s ease;
 }
@@ -66,40 +66,50 @@
 
 .second-row {
   display: flex;
-  gap: 24px;
+  gap: var(--size-large);
   margin-left: 80px;
 }
 
 .hero-img-wrapper {
-  gap: 16px;
+  gap: var(--size-medium);
 }
 
 .hero-img-wrapper > div {
-  gap: 16px;
+  gap: var(--size-medium);
+}
+
+.hero-img-container {
+  width: 756px;
+  height: 472px;
+  border-radius: var(--size-small);
+  background-image: url("../../../public/assets/images/hero-section-photo.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5f5f5;
 }
 
 .hero-main-img {
-  width: 756px;
-  border-radius: 10px;
-}
-
-.tool-icon {
-  width: 80px;
-  height: 80px;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 @media (max-width: 1220px) {
   .hero-title {
     font-size: 40px !important;
   }
-  .hero-main-img {
+  .hero-img-container {
     width: 560px;
+    height: 350px;
   }
 }
 
 @media (max-width: 1024px) {
   .hero-title {
-    font-size: 32px !important;
+    font-size: var(--size-xlarge) !important;
   }
 
   .hero-subtitle {
@@ -107,18 +117,19 @@
     width: 77%;
   }
 
-  .hero-main-img {
+  .hero-img-container {
     width: 480px;
+    height: 300px;
   }
 
   .second-row {
-    width: 64px;
-    height: 64px;
+    width: var(--size-xxxlarge);
+    height: var(--size-xxxlarge);
   }
 
   .tool-icon {
-    width: 64px;
-    height: 64px;
+    width: var(--size-xxxlarge);
+    height: var(--size-xxxlarge);
   }
 }
 
@@ -127,7 +138,7 @@
     flex-direction: column;
   }
   .hero-img-wrapper {
-    margin: 32px 0;
+    margin: var(--size-xlarge) 0;
   }
   .hero-content {
     margin-bottom: 0;
@@ -135,9 +146,9 @@
 
   .hero-title {
     text-align: center;
-    margin: 16px auto;
+    margin: var(--size-medium) auto;
     max-width: 400px;
-    font-size: 32px !important;
+    font-size: var(--size-xlarge) !important;
   }
   .hero-subtitle {
     text-align: center;
@@ -157,7 +168,7 @@
     left: 0;
   }
   .hero-container::before {
-    bottom: 32px;
+    bottom: var(--size-xlarge);
     right: 0;
   }
 }
@@ -165,30 +176,56 @@
 @media (max-width: 600px) {
   .hero-title {
     max-width: 310px;
-    font-size: 24px !important;
+    font-size: var(--size-large) !important;
   }
 
-  .hero-main-img {
+  .hero-img-container {
     width: 280px;
+    height: 175px;
   }
 
   .tool-icon {
-    width: 48px;
-    height: 48px;
-    padding: 10px;
+    width: var(--size-xxlarge);
+    height: var(--size-xxlarge);
+    padding: var(--size-small);
   }
 
   .hero-img-wrapper {
-    gap: 16px;
-    margin: 24px 0;
+    gap: var(--size-medium);
+    margin: var(--size-large) 0;
   }
 
   .first-row {
-    gap: 16px;
+    gap: var(--size-medium);
   }
 
   .second-row {
-    gap: 16px;
-    margin-left: 64px;
+    gap: var(--size-medium);
+    margin-left: var(--size-xxxlarge);
+  }
+}
+
+/* For responsive design */
+@media screen and (max-width: 1024px) {
+  .hero-main-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 756/472;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .hero-main-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 756/472;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .hero-main-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 756/472;
   }
 }

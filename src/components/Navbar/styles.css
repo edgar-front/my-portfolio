@@ -1,5 +1,5 @@
 .nav-wrapper {
-  padding: 16px 24px;
+  padding: var(--size-medium) var(--size-large);
   position: sticky;
   top: 0;
   z-index: 99;
@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0;
+  padding: var(--size-medium) 0;
   margin: 0 auto;
 }
 
@@ -24,26 +24,26 @@
 .nav-content ul {
   display: flex;
   align-items: center;
-  gap: 48px;
+  gap: var(--size-xxlarge);
   list-style: none;
 }
 
 .nav-content li {
   position: relative;
   cursor: pointer;
-  padding: 8px 6px;
+  padding: var(--size-small) 6px;
 }
 
 .nav-content li::before {
   content: " ";
-  width: 32px;
+  width: var(--size-xlarge);
   height: 3px;
   position: absolute;
   left: 0;
   bottom: 0;
 
   opacity: 0;
-  border-radius: 6px;
+  border-radius: var(--size-small);
   transition: all 0.2s ease;
   transform: translateX(-12px);
   background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
@@ -60,8 +60,9 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
-  padding: 8px 12px;
+  background-color: var(--c-primary);
+  /*linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);*/
+  padding: var(--size-small) 12px;
   border: none;
   outline: 1.5px solid transparent;
   border-radius: 3px;
@@ -69,8 +70,9 @@
 }
 
 .contact-btn:hover {
-  color: #a993fe;
-  background: #000;
+  background-color: var(--c-background);
+  color: var(--primary-color);
+  /*background: #000;*/
   outline: 1.5px solid #a993fe;
 }
 
@@ -89,9 +91,30 @@
 
 @media (max-width: 1200px) {
   .nav-wrapper {
-    padding: 0 32px;
+    padding: 0 var(--size-xlarge);
   }
   .nav-content ul {
-    gap: 24px;
+    gap: var(--size-large);
   }
+}
+
+.nav-logo {
+  cursor: pointer;
+  user-select: none;
+  font-weight: 600;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.nav-logo:hover {
+  opacity: 0.8;
+}
+
+.nav-logo:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+  border-radius: var(--size-xsmall);
+}
+
+.nav-logo:focus:not(:focus-visible) {
+  outline: none;
 }

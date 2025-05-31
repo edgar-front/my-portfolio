@@ -1,41 +1,41 @@
 .work-experience-card {
   background: #130f2a;
-  border-radius: 9px;
+  border-radius: var(--size-small);
   border: 1.5px solid #6751b9;
-  padding: 24px 40px;
-  margin: 0 16px;
+  padding: var(--size-large) 40px;
+  margin: 0 var(--size-medium);
 }
 
 .work-experience-card h6 {
-  font-size: 17px;
+  font-size: var(--size-medium);
   font-weight: 500;
-  margin-bottom: 13px;
+  margin-bottom: var(--size-medium);
 }
 
 .work-duration {
   display: inline-block;
-  font-size: 13px;
+  font-size: var(--size-medium);
   font-weight: 400;
   background: rgba(103, 81, 185, 0.5);
-  border-radius: 6px;
-  padding: 7px 9px;
+  border-radius: var(--size-small);
+  padding: var(--size-small) var(--size-small);
   margin-bottom: 19px;
 }
 
 .list-item {
   list-style: none;
-  font-size: 14px;
+  font-size: var(--size-medium);
   font-weight: 400;
-  margin-bottom: 8px;
+  margin-bottom: var(--size-small);
   position: relative;
 }
 
 .list-item::after {
   content: " ";
-  width: 8px;
-  height: 8px;
+  width: var(--size-small);
+  height: var(--size-small);
   background-color: #6751b9;
-  border-radius: 8px;
+  border-radius: var(--size-small);
   position: absolute;
   left: -12px;
   top: 6px;

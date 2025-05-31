@@ -1,0 +1,18 @@
+:root {
+  /*  Colors */
+  --c-primary: #a993fe; /*Purple*/
+  --c-secondary: #2ecc71; /* Green */
+  --c-accent: #e74c3c; /* Red */
+  --c-background: #7e61e7;
+  --c-border: #6852ba;
+
+  /* Neutral Colors */
+  --c-white: #ffffff;
+  --c-black: #000000;
+  --c-gray-light: #ecf0f1;
+  --c-gray-dark: #2c3e50;
+
+  /* Text Colors */
+  --c-text-primary: #fff;
+  --c-text-secondary: #7f8c8d;
+}

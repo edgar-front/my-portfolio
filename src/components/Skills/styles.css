@@ -1,5 +1,5 @@
 .skills-container {
-  margin: 64px 0;
+  margin: var(--size-xxxlarge) 0;
   position: relative;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .skills-container::after {
-  top: -48px;
+  top: -var(--size-xxlarge);
   left: -80rem;
 }
 
@@ -27,19 +27,19 @@
 }
 
 .skills-container h5 {
-  margin-bottom: 56px;
+  margin-bottom: var(--size-xxlarge);
 }
 
 .skills-content {
   display: flex;
   align-items: flex-start;
-  gap: 48px;
+  gap: var(--size-xxlarge);
 }
 
 .skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: var(--size-xlarge);
   justify-content: space-between;
 }
 
@@ -49,23 +49,23 @@
 
 @media (max-width: 1024px) {
   .skills {
-    padding-left: 16px;
+    padding-left: var(--size-medium);
   }
 
   .skills,
   .skills-content {
-    grid-gap: 32px;
+    grid-gap: var(--size-xlarge);
   }
 }
 
 @media (max-width: 768px) {
   .skills-content {
     flex-direction: column-reverse;
-    gap: 48px;
+    gap: var(--size-xxlarge);
   }
 
   .skills {
-    gap: 24px;
+    gap: var(--size-large);
   }
 
   .skills,
@@ -74,7 +74,7 @@
   }
 
   .skills-container {
-    margin-bottom: 32px;
+    margin-bottom: var(--size-xlarge);
   }
 
   .skills-container::after,

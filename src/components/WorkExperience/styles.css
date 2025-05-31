@@ -1,16 +1,16 @@
 .experience-container {
-  margin: 64px 0;
+  margin: var(--size-xxxlarge) 0;
   position: relative;
 }
 
 .experience-container h5 {
-  margin-bottom: 48px;
+  margin-bottom: var(--size-xxlarge);
 }
 
 .arrow-left,
 .arrow-right {
   padding: 0 !important;
-  border-radius: 9px;
+  border-radius: var(--size-small);
   border: 1.5px solid #6751b9;
   background: #130f2a;
   position: absolute;
@@ -37,14 +37,14 @@
 
 @media (max-width: 768px) {
   .experience-container h5 {
-    margin-bottom: 30px;
+    margin-bottom: var(--size-xlarge);
   }
 
   .arrow-left {
-    left: -16px;
+    left: -var(--size-medium);
   }
 
   .arrow-right {
-    right: -16px;
+    right: -var(--size-medium);
   }
 }

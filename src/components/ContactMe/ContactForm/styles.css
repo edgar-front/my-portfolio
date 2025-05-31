@@ -5,30 +5,30 @@
 form {
   display: flex;
   flex-direction: column;
-  grid-gap: 24px;
+  grid-gap: var(--size-large);
 }
 
 .name-container {
   display: flex;
   align-items: center;
-  grid-gap: 24px;
+  grid-gap: var(--size-large);
 }
 
 form input,
 form textarea {
   flex: 1;
   width: 100%;
-  font-size: 15px;
+  font-size: var(--size-medium);
   color: #fff;
   background: #130f2a;
-  border-radius: 9px;
+  border-radius: var(--size-small);
   border: 1.5px solid #6751b9;
-  padding: 16px;
+  padding: var(--size-medium);
 }
 
 form button {
   border: 1.5px solid #a892fe;
-  border-radius: 15px;
+  border-radius: var(--size-medium);
   background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
   padding: 12px;
   transition: all 0.3s ease;
@@ -48,7 +48,7 @@ form button:hover {
 
   form input,
   form textarea {
-    padding: 15px;
+    padding: var(--size-medium);
     border-radius: 5px;
   }
 
